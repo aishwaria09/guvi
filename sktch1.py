@@ -1,6 +1,8 @@
 a=float(input(" "))
-if a>=0:
-        print ("Positive")
+if (a%2==0):
+        print ("Even")
+elif (a<0):
+        print("invalid")
 else:
-        print("Negative")
+        print("Odd")
 
